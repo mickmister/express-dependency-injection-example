@@ -23,3 +23,7 @@ https://github.com/mickmister/express-dependency-injection-example/blob/79dbc389
 Then you can use the dependencies, and the Typescript compiler already knows the type of each dependency through type inference:
 
 https://github.com/mickmister/express-dependency-injection-example/blob/79dbc3891e42507847f76431ca9241cffc578fc8/src/controllers/users_controller.ts#L6-L13
+
+Provide dependencies in your tests. Note that the database service dependency is fairly superficial. We should ideally make the test realistic and use a test database if possible.
+
+https://github.com/mickmister/express-dependency-injection-example/blob/f50ab30b71c283431093aa3569545226d555c47d/src/controllers/users_controller.test.ts#L19-L31
