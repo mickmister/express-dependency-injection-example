@@ -6,7 +6,7 @@ We'll want to make dependencies for any external service we communicate with, an
 
 For dependencies that rely on the request object itself, a decent solution is to have the dependency simply be a function that accepts the request object or the request body, and returns the actual useful dependency. This keeps code as clean as possible in the API layer of your application.
 
-## Usage
+## Example
 
 Provide application dependencies in your entrypoint:
 
