@@ -16,10 +16,10 @@ Assign dependencies to the Express request object using middleware:
 
 https://github.com/mickmister/express-dependency-injection-example/blob/79dbc3891e42507847f76431ca9241cffc578fc8/src/express_app.ts#L6-L12
 
-COnfigure the Typescript compiler to include this change to the Express request object:
+Configure the Typescript compiler to include this change to the Express request object:
 
 https://github.com/mickmister/express-dependency-injection-example/blob/79dbc3891e42507847f76431ca9241cffc578fc8/src/types/express.d.ts#L1-L9
 
-Then you can use the dependencies, and Typescript already knows the type of each dependency:
+Then you can use the dependencies, and the Typescript compiler already knows the type of each dependency through type inference:
 
 https://github.com/mickmister/express-dependency-injection-example/blob/79dbc3891e42507847f76431ca9241cffc578fc8/src/controllers/users_controller.ts#L6-L13
